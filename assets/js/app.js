@@ -1,3 +1,5 @@
+// el codigo consulta una api de usuarios e imprime en el html los datos.
+
 const baseEndpoint = 'https://api.github.com';
 const usersEndpoint = `${baseEndpoint}/users`;
 const $n = document.getElementById('name');
